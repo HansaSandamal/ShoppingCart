@@ -30,7 +30,8 @@
         align:center;
     }
     .coloum p{
-        margin-left:30px;
+        margin-left:100px;
+        width:25%;
     }
     .coloum img{
         margin-left:15px;

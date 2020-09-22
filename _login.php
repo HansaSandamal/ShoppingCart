@@ -1,8 +1,8 @@
 
 <?php 
 	include"db.php";
-	$uname=$_REQUEST["username"];
-	$pass=$_REQUEST["password"];
+	$uname=trim($_REQUEST["username"]);
+	$pass=trim(md5($_REQUEST["password"]));
 	
 	$sql="SELECT role FROM user WHERE username=:un AND password=:pass";
 	$stmt=$conn->prepare($sql);

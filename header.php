@@ -26,8 +26,10 @@
         margin-top:0;
     }
     .name img{
+        margin-top:10px;
+        margin-left:10px;
         margin-right:10px;
-        margin-right:20px;
+        
         /* filter: opacity(0); */
         /* filter:drop-shadow(10px 10px 4px #ffffff); */
     }
@@ -159,7 +161,7 @@
                 <input type="button" class="button" value="SignUp" onclick="openForm2()">
 
         </div>
-        <form class="popup" id="myForm" action="_login.php" action="get">
+        <form class="popup" id="myForm" action="_login.php" method="post">
 	        <label>User Name :</label><br>
 	        <input type="text" name="username">
 	        <br>
@@ -169,12 +171,12 @@
 	        <a href=""><input type="submit" name="submit"></a>
             <input type="button" name="cancel" value="Cancel" onclick="closeForm()">
         </form>
-        <form class="popup1" id="myForm2" action="_SignUp.php" action='get'>
+        <form class="popup1" id="myForm2" action="_SignUp.php" method='post'>
             <label for="">User Name</label>
             <input type="text" name="usename" id="usename">
             <br>
             <label for="">Password</label>
-            <input type="text" name="pword" id="pword">
+            <input type="password" name="pword" id="pword">
             <br>
             <label for="">Display Name</label>
             <input type="text" name="displayName" id="displayName">

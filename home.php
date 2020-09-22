@@ -30,6 +30,12 @@
          z-index: -1;
          
       }
+      .imgRaw figure{
+         margin-top:30px;
+         margin-bottom:30px;
+         margin-left:100px;
+         width:25%;
+      }
       .about{
          background-image: url('images/background.jpg');opacity: 0.8;
          z-index: -1;
@@ -38,6 +44,7 @@
          flex-direction: row;
       }
       .about>p{
+         margin:40px;
          margin-left:25px;
          color:#ffffff ;         
       }
