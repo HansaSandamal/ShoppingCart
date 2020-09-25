@@ -147,16 +147,16 @@
 <div class="head">
         <div class=name>
             <img src="images/logo3.png" alt="logo" width="100px" height="60px" >
-            <h1>Online Plant Shop</h1>
+            <h1>Admin Page</h1>
             
         </div>
         
         <div class="select">
 
                 <!-- <a href="login.php"><input type="button" class="button" value="Login" ></a> -->
-                <input type="button" class="button" value="Login" onclick="openForm()">
+                <input type="button" class="button" value="Delete user" onclick="openForm()">
                 <!-- <a href="SignUp.php"><input type="button" class="button" value="SignUp"></a> -->
-                <input type="button" class="button" value="SignUp" onclick="openForm2()">
+                <input type="button" class="button" value="Add member" onclick="openForm2()">
 
         </div>
         <form class="popup" id="myForm" action="_login.php" action="get">
@@ -181,7 +181,6 @@
             <br>
             <label for="">Role</label>
             <select name="role" id="role">
-                <option value="1">Admin</option>
                 <option value="2">Supplier</option>
                 <option value="3">User</option>
             </select>

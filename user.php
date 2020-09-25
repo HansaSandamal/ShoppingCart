@@ -49,6 +49,7 @@ body {font-family: Arial;}
   -ms-flex-wrap: wrap; /* IE 10 */
   flex-wrap: wrap;
   padding: 0 4px;
+ 
 }
 .column img {
   margin-top: 8px;
@@ -135,28 +136,20 @@ body {font-family: Arial;}
     <img src="images/items/colourful plants/syzygium-campanulatum-christina-LP-L-1-400x400.jpg" style="width:100%">
   </div>  
   
+
+  
+  
+  
+  
   <div class="column">
-    <img src="images/items/cooking plants/psophocarpus-tetragonolobus-Dambala-Climb-400x400.jpg" style="width:100%">
-    <img src="images/items/cooking plants/raphanus-sativus-Radish-400x400.jpg" style="width:100%">
-    <img src="images/items/cooking plants/Sauropus-androgynus-Japan-Batu-T-S-400x400.jpg" style="width:100%">
-    <img src="images/items/cooking plants/Sesbania-grandiflora-–-Katurumurunga-T-S-Home-Garden-400x400.jpg" style="width:100%">
-    <img src="images/items/cooking plants/Solanum-lycopersicum-tomatoes-LP-S-400x400.jpg" style="width:100%">
-    <img src="images/items/cooking plants/Solanum-melongena-Brinjal-LP-S-400x400.jpg" style="width:100%">
-    <img src="images/items/cooking plants/Solanum-melongena-elabatu-LP-S-400x400.jpg" style="width:100%">
+    <img src="images/items/colourful plants/Euphorbia-plucherrima-400x400.jpg" style="width:100%">
+    <img src="images/items/colourful plants/Callistemon-lanceolatus-Crimson-Bottle-Brush-400x400.jpg" style="width:100%">
+    <img src="images/items/colourful plants/Calathea-zebrina-CALATHEA-ZEBRA-400x400.jpg" style="width:100%">
+    <img src="images/items/colourful plants/Gynandropsis-gynandra-–-Vela-LP-S-Medi-400x400.jpg" style="width:100%">
+    <img src="images/items/colourful plants/Stigmaphyllon-ciliatum-orchid-vine-Cr-400x400.jpg" style="width:100%">
+    <img src="images/items/colourful plants/Jacquemontia-violacea-Jacquemontia-Cr-400x400.jpg" style="width:100%">
+    <img src="images/items/colourful plants/Codiaeum-variegatum-Garden-Croton-LP-L-400x400.jpg" style="width:100%">
   </div>
-  
-  
-  
-  
-  <!-- <div class="column">
-    <img src="images/items/colourful plants/" style="width:100%">
-    <img src="images/items/colourful plants/" style="width:100%">
-    <img src="images/items/colourful plants/" style="width:100%">
-    <img src="images/items/colourful plants/" style="width:100%">
-    <img src="images/items/colourful plants/" style="width:100%">
-    <img src="images/items/colourful plants/" style="width:100%">
-    <img src="images/items/colourful plants/" style="width:100%">
-  </div> -->
 
 </div>
 
@@ -183,12 +176,12 @@ body {font-family: Arial;}
   </div>  
   <div class="column">
     <img src="images/items/aquatic plants/Trapa-bispinosa-ikiliya-AQ-400x400.jpg" style="width:100%">
-    <img src="images/items/aquatic plants/raphanus-sativus-Radish-400x400.jpg" style="width:100%">
     <img src="images/items/aquatic plants/Victoria-amazonica-giant-water-lily-AQ-400x400.jpg" style="width:100%">
-    <!-- <img src="images/items/aquatic plants/.jpg" style="width:100%">
-    <img src="images/items/aquatic plants/.jpg" style="width:100%">
-    <img src="images/items/aquatic plants/.jpg" style="width:100%">
-    <img src="images/items/aquatic plants/.jpg" style="width:100%"> -->
+    <img src="images/items/aquatic plants/Limnocharis-flava-–-Diya-gowa-AQsys-400x400.jpg" style="width:100%">
+    <img src="images/items/aquatic plants/Myriophyllum-aquaticum-–-Gira-pihatu-AQsys-400x400.jpg" style="width:100%">
+    <img src="images/items/aquatic plants/Salvinia-molesta-–-Salvinia-AQsys-400x400.jpg" style="width:100%">
+    <img src="images/items/aquatic plants/Najas-marina-–-Pond-weed-AQsys-400x400.jpg" style="width:100%">
+    <img src="images/items/aquatic plants/Typha-angustifolia-–-Typha-AQsys-400x400.jpg" style="width:100%">
   </div>
 
 </div>
@@ -197,22 +190,28 @@ body {font-family: Arial;}
 <script>
 function openTab(evt, categoryName) {
   var i, tabcontent, tablinks,elements;
-  
+
+
   tabcontent = document.getElementsByClassName("tabcontent");
 
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
     
   }
+
   tablinks = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
- 
-  
-  
+    
   }
+  
   document.getElementById(categoryName).style.display = "block";
+  
 
+
+ 
+
+  
  
   evt.currentTarget.className += " active";
 }
